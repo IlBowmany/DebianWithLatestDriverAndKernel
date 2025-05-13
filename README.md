@@ -1,4 +1,5 @@
-# DebianWithLatestDriverAndKernel
+# Debian with Latest Nvidia Driver and Kernel
+
 Hi Everyone!
 
 I love linux. I love it with all myself. And of it, I love Debian even more. It's my favourite distro, and always come back to it whenever I tend to have distro-hopping struggles.
