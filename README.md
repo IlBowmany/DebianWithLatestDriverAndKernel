@@ -12,25 +12,25 @@ First of all, I recommend to do this with a clean and fresh Debian installation.
 
 After you have Installed Debian, update it completely. Open a Terminal and write:
 
-...
+```
 sudo apt update
-...
+```
 
-...
+```
 sudo apt upgrade
-...
+```
 
 After everything has been properly updated, let's update the Kernel with the Liquorix one, (Their Website: https://liquorix.net/ , I hope they don't change the script in the future, otherwise the one down here will be outdated!) :
 
-...
+```
 curl -s 'https://liquorix.net/install-liquorix.sh' | sudo bash
-...
+```
 
 After the kernel has been properly installed, reboot the PC.
 
 Open Terminal again, and write:
 
-...
+```
 sudo apt install wget
 
 wget https://developer.download.nvidia.com/compute/cuda/repos/debian12/x86_64/cuda-keyring_1.1-1_all.deb
@@ -40,7 +40,7 @@ sudo dpkg -i cuda-keyring_1.1-1_all.deb
 sudo apt-get update
 
 sudo apt install cuda-drivers
-...
+```
 
 After the driver have been completely installed, reboot again.
 Check if everything works properly by writing on Terminal "nvidia-smi"
@@ -48,13 +48,13 @@ If it shows you a small log with your graphic card name and driver installed, th
 
 To end all this, let's install the 32 bit libraries too (useful for WINE and Steam):
 
-...
+```
 sudo dpkg --add-architecture i386
 
 sudo apt update
 
 sudo apt install nvidia-driver-libs:i386
-...
+```
 
 After this, reboot again.
 
