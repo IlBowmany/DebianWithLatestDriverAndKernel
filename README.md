@@ -3,7 +3,7 @@
 Hi Everyone!
 
 I love linux. I love it with all myself. And of it, I love Debian even more. It's my favourite distro, and always come back to it whenever I tend to have distro-hopping struggles.
-The point is: If you are someone like me, who plays a lot and do 3D stuff, you will need latest Drivers and Nvidia Kernel for comfort reason (we will talk only about Nvidia, since I have a Nvidia laptop, and we all know how the most recent Nvidia drivers (575 of now) are great, much more then the 535 which Debian repos offers).
+The point is: If you are someone like me, who plays a lot and do 3D stuff, you will need latest Drivers and Nvidia Kernel for comfort reason (we will talk only about Nvidia, since I have a Nvidia laptop, and we all know how the most recent Nvidia drivers are great, much more then the ones Debian repos offers).
 Debian is always regarded as a stable but not much updated distro, which can be good for someone, but for others it could be an issue.
 That's why I'm writing this guide.
 
